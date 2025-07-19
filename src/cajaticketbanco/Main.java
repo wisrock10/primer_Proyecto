@@ -3,18 +3,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package cajaticketbanco;
-
+import java.util.Random;
 /**
  *
- * @author qadri
+ * @author Wiston Jose Rivas Quintero
+ * @author Cristian Thomas Rojas Arce
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int ticketNumber = 1;
+        Random random = new Random();
+
+        // Types of clients with their priority letters
+        String[] clientTypes = {
+            "Adulto mayor",                   // A
+            "Mujer embarazada o niño en brazos", // B
+            "Persona con discapacidad",           // C
+            "Más de un asunto en el banco",       // D
+            "Atención en plataforma",             // E
+            "Mujer",                               // F
+            "Hombre"                               // G
+        };
     }
-    
 }
