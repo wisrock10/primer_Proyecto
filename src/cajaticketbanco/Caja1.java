@@ -32,7 +32,15 @@ public class Caja1 {
             cantidadAtendidos++;
             tiempoTotal += minutos;
         }
-
         System.out.println("Atención finalizada en Caja 1.");
+   System.out.println("Atención finalizada en Caja 1.");
+    }
+
+    public int getCantidadAtendidos() {
+        return cantidadAtendidos;
+    }
+
+    public int getTiempoTotal() {
+        return tiempoTotal;
     }
 }
