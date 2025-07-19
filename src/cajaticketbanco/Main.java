@@ -38,6 +38,16 @@ public class Main {
                 JOptionPane.showMessageDialog(null, "Gracias por usar el sistema de tickets.");
                 break;
             }
+             int index = random.nextInt(clientTypes.length);
+            char letter = priorityLetters[index];
+            String description = clientTypes[index];
+
+            String ticket = letter + String.valueOf(ticketNumber);
+            generatedTickets.add(ticket);
+
+            JOptionPane.showMessageDialog(null, "TICKET #" + ticketNumber + "\nLetra: " + letter + "\nTipo de atención: " + description);
+            ticketNumber++;
+        }
+
         }
     }
-}
