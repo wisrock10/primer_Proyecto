@@ -28,3 +28,10 @@ System.out.println("Caja 2 atiende ticket número " + number + " con letra " + l
 
             cantidadAtendidos++;
             tiempoTotal += minutos;
+}
+
+        System.out.println("Atención finalizada en Caja 2.");
+    }
+
+    public int getCantidadAtendidos() {
+        return cantidadAtendidos;
