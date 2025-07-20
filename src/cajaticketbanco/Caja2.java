@@ -16,3 +16,7 @@ public class Caja2 {
     public void atenderTickets(List<String> tickets) {
         System.out.println("Iniciando atención en Caja 2...");
         Random random = new Random();
+
+for (String ticket : tickets) {
+            char letter = ticket.charAt(0);
+            String number = ticket.substring(1);
