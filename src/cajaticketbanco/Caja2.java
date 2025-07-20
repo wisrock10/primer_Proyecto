@@ -12,3 +12,7 @@ public class Caja2 {
     private int cantidadAtendidos = 0;
     private int tiempoTotal = 0; // Total time in minutes
 }
+// Attends each ticket by simulating random time
+    public void atenderTickets(List<String> tickets) {
+        System.out.println("Iniciando atención en Caja 2...");
+        Random random = new Random();
