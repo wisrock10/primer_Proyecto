@@ -20,3 +20,11 @@ public class Caja2 {
 for (String ticket : tickets) {
             char letter = ticket.charAt(0);
             String number = ticket.substring(1);
+
+System.out.println("Caja 2 atiende ticket número " + number + " con letra " + letter);
+
+            int minutos = 1 + random.nextInt(5);  // Random minutes between 1 and 5
+            System.out.println("Tiempo estimado de atención: " + minutos + " minutos");
+
+            cantidadAtendidos++;
+            tiempoTotal += minutos;
